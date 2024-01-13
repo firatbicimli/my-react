@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './style.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h3>A collective list of free APIs for use in <br/> software and web development.</h3>
+      <form>
+        <input type='text' placeholder='Find development, games, images APIs'/>
+      </form>
+      <div className='container'>
+        <h4>Featured APIs of this week</h4>
+        <div className='api-list'>
+          <div className='api-item'>
+            <div className='item-icon'>
+              
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
